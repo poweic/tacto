@@ -12,8 +12,8 @@ module.exports = {
     Tacto: ['intro'],
     "Getting Started": ['installation'],
     Tutorials: [
+        'tutorials/renderer',
         'tutorials/digit',
-        'tutorials/ball_rolling',
     ],
   },
 };

@@ -5,10 +5,6 @@ title: Building Your First Tactile Simulator
 
 In this tutorial, we will be building a tactile simulation that can simulate the touch of a ball on a DIGIT sensor (see below).
 
-:::important
-The simulator is not meant to provide a physically accurate dynamics of the contacts (e.g., deformation, friction), but rather relies on existing physics engines, such as PyBullet.
-:::
-
 We will walk through how to create a world in PyBullet physics engine, use Tacto to create a tactile simulator, and finally use [pybulletX](https://github.com/facebookresearch/pybulletX), a lightweight PyBullet wrapper, to put everything together as an interactive demo.
 
 ![demo_digit](/img/demo_digit.gif)

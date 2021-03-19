@@ -14,3 +14,8 @@ git clone https://github.com/facebookresearch/tacto.git
 cd tacto
 pip install -e .
 ```
+
+### Additional Packages for Examples
+Additional packages ([torch](https://github.com/pytorch/pytorch), [gym](https://github.com/openai/gym), [pybulletX](https://github.com/facebookresearch/pybulletX))
+are required to run the demos in `examples/`.
+You can install them by `pip install -r requirements/examples.txt`.

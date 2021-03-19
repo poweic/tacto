@@ -9,6 +9,12 @@
 
 module.exports = {
   someSidebar: {
+    Tacto: ['intro'],
+    "Getting Started": ['installation'],
+    Tutorials: [
+        'tutorials/digit',
+        'tutorials/ball_rolling',
+    ],
     Docusaurus: ['doc1', 'doc2', 'doc3'],
     Features: ['mdx'],
   },
